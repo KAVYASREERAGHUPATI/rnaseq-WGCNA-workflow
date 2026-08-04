@@ -157,3 +157,6 @@ rnaseq-wgcna-workflow/
        |-- Complete_General_WGCNA_Pipeline.R
 ├── README.md
 └── LICENSE
+> **Important Note**
+>
+> For improved network visualization and easier biological interpretation, the **top 50 hub genes** (or **top 30 hub genes**, depending on the desired network size) from biologically relevant modules can be directly exported to **Cytoscape**. Exporting only the most highly connected hub genes reduces network complexity and produces clear, publication-quality co-expression network visualizations while preserving the major biological interactions within each module.
